@@ -1,0 +1,8 @@
+.background {
+  height: 100vh;            /* 화면 전체 높이 */
+  background-color: #FFFFFF; /* 흰색 배경 */
+  display: flex;             /* 중앙 정렬을 위해 flex 사용 */
+  justify-content: center;   /* 가로 중앙 */
+  align-items: center;       /* 세로 중앙 */
+  flex-direction: column;    /* 필요시 텍스트와 이미지 세로 배치 */
+}
