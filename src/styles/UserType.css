@@ -1,11 +1,18 @@
 .background {
-  position: relative;     /* 이미지 절대 위치 기준 */
+  position: relative;     
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* 버튼은 하단 근처 배치 */
   align-items: center;       /* 가로 중앙 */
-  height: 100vh;             /* 화면 전체 높이 */
-  padding-bottom: 80px;      /* 버튼 하단에서 살짝 띄우기 */
+  height: 100vh;             /* 화면 전체 높이 기준 */
+}
+
+.textbox1 {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* 텍스트 가로 중앙 */
+  text-align: center;
+  margin-top: 15vh;         /* 화면 상단에서 띄우기 */
 }
 
 .usertypeImg1 {
@@ -18,9 +25,8 @@
   object-fit: contain;
 }
 
-.myButton {
-  background-color: #9b3f3f; /* 버튼 배경색 */
-  padding: 10px 20px;
-  border-radius: 8px;
-  z-index: 1;               /* 이미지 위로 보이도록 */
+.LandingButton {
+  z-index: 1;  
+  margin-top: auto;
+  margin-bottom: 10vh;       /* 화면 맨 아래에서 띄우기 */
 }

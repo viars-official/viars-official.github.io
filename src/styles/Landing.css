@@ -1,15 +1,21 @@
-.background {
-      display: flex;
-  justify-content: center; /* 가로 중앙 */
-  align-items: center;     /* 세로 중앙 */
-}
-
-
-
-.landingImg1 {
+/* src/styles/Landing.css */
+.landing-wrapper {
+   flex: 1;                     /* 부모 높이를 채움 */
+   display: flex;
+   justify-content: center;      /* 가로 중앙 */
+   align-items: center;          /* 세로 중앙 */
+   padding: 0;
+   box-sizing: border-box;
+   padding: 0;
+ }
+ 
+ .landingImg1 {
    width: 80%;
-  max-width: 300px;
-  height: auto;
-  object-fit: contain;
-   background-color: #FFFFFF; /* 흰색 배경 */
-}
+   max-width: 300px;
+   height: auto;
+   display: block;
+   margin: 0;
+   padding: 0;
+
+ }
+ 

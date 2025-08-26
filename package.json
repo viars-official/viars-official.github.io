@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/noto-sans": "^5.2.7",
+    "@fontsource/noto-sans-kr": "^5.2.6",
+    "@fontsource/noto-serif": "^5.2.7",
+    "@fontsource/noto-serif-kr": "^5.2.6",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",

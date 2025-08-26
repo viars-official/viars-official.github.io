@@ -1,8 +1,24 @@
-* {
-  max-width: 412px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0vh;
-  margin-bottom: 0vh;
+/* 브라우저 전체 배경은 회색 */
+body {
   background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;   /* 화면 중앙에 모바일 박스 위치 */
+  /* align-items: center;       세로도 중앙 배치 (선택사항) */
+  min-height: 100vh;         /* 세로 화면 전체 */
+}
+
+/* 모바일 화면처럼 보이는 흰색 박스 */
+#root {
+  width: 100%;
+  max-width: 412px;          /* 모바일 폭 고정 */
+  min-height: 100vh;         /* 브라우저 창 전체 높이 */
+  background-color: #fff;    /* 흰색 박스 */
+  display: flex;             /* 내부에서 flex 정렬 가능 */
+  margin: 0;
+  flex-direction: column;
+}
+
+body, #root {
+  margin: 0;
+  padding: 0;
 }
