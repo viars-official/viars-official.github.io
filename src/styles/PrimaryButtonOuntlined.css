@@ -1,0 +1,37 @@
+.primaryOuntlined {
+    width: 364px;       /* 가로 고정 */
+    height: 52px;       /* 세로 고정 */
+    padding: 0;
+    border-radius: 100px;
+    background-color: white;
+    color: #597CF8;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid #597CF8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  /* 클릭 시 0.5초 hover 느낌 */
+  .primaryOuntlined.clicked {
+    background-color: #2A59FF;
+    color: white;
+    border: none;
+  }
+  
+  /* 클릭 후 활성화 상태 */
+  .primaryOuntlined.activated {
+    background-color: white;
+    color: #8FA8FF;
+    border: #8FA8FF 2px;
+  }
+  
+  /* 비활성화 상태 */
+  .primaryOuntlined.disabled {
+    background-color: white;
+    color: #505771;
+    border: #505771 2px;
+    cursor: not-allowed;
+  }
+  

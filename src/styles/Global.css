@@ -1,0 +1,6 @@
+/* src/styles/Global.css */
+.background {
+  display: flex;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
